@@ -1,0 +1,32 @@
+22:34:23.468 [main] INFO  com.neuedu.BusinessApplication - Starting BusinessApplication on DESKTOP-HL876H2 with PID 11456 (D:\workspace_idea\business\target\classes started by 李明伟17803312598 in D:\workspace_idea\business)
+22:34:23.477 [main] INFO  com.neuedu.BusinessApplication - No active profile set, falling back to default profiles: default
+22:34:24.657 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+22:34:24.658 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:34:24.659 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+22:34:24.766 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:34:24.900 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+22:39:40.761 [main] INFO  com.neuedu.BusinessApplication - Starting BusinessApplication on DESKTOP-HL876H2 with PID 560 (D:\workspace_idea\business\target\classes started by 李明伟17803312598 in D:\workspace_idea\business)
+22:39:40.772 [main] INFO  com.neuedu.BusinessApplication - No active profile set, falling back to default profiles: default
+22:39:41.819 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+22:39:41.819 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:39:41.820 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+22:39:41.898 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:39:41.985 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+22:39:54.368 [main] INFO  com.neuedu.BusinessApplication - Starting BusinessApplication on DESKTOP-HL876H2 with PID 1592 (D:\workspace_idea\business\target\classes started by 李明伟17803312598 in D:\workspace_idea\business)
+22:39:54.375 [main] INFO  com.neuedu.BusinessApplication - No active profile set, falling back to default profiles: default
+22:39:55.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+22:39:55.333 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:39:55.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+22:39:55.410 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:39:55.497 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+22:43:46.253 [main] INFO  com.neuedu.BusinessApplication - Starting BusinessApplication on DESKTOP-HL876H2 with PID 19976 (D:\workspace_idea\business\target\classes started by 李明伟17803312598 in D:\workspace_idea\business)
+22:43:46.264 [main] INFO  com.neuedu.BusinessApplication - No active profile set, falling back to default profiles: default
+22:43:47.239 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+22:43:47.240 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:43:47.240 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+22:43:47.329 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:43:47.487 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:43:48.723 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:43:49.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+22:43:49.288 [main] INFO  com.neuedu.BusinessApplication - Started BusinessApplication in 3.643 seconds (JVM running for 6.574)
+22:44:20.824 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
