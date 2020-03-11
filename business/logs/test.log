@@ -1,16 +1,36 @@
-22:43:46.253 [main] INFO  com.neuedu.BusinessApplication - Starting BusinessApplication on DESKTOP-HL876H2 with PID 19976 (D:\workspace_idea\business\target\classes started by 李明伟17803312598 in D:\workspace_idea\business)
-22:43:46.264 [main] INFO  com.neuedu.BusinessApplication - No active profile set, falling back to default profiles: default
-22:43:46.894 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-22:43:47.239 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-22:43:47.240 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-22:43:47.240 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
-22:43:47.329 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-22:43:47.462 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
-22:43:47.487 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
-22:43:48.723 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-22:43:49.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-22:43:49.288 [main] INFO  com.neuedu.BusinessApplication - Started BusinessApplication in 3.643 seconds (JVM running for 6.574)
-22:44:20.824 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-22:44:20.936 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.selectByPrimaryKey - ==>  Preparing: select id, username, password, userpic, email, phone, question, answer, role, create_time, update_time from neuedu_user where id = ? 
-22:44:20.995 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
-22:44:21.024 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.selectByPrimaryKey - <==      Total: 1
+11:52:39.052 [main] INFO  com.neuedu.BusinessApplication - Starting BusinessApplication on DESKTOP-HL876H2 with PID 15264 (D:\workspace_idea\business\target\classes started by 李明伟17803312598 in D:\workspace_idea\business)
+11:52:39.070 [main] INFO  com.neuedu.BusinessApplication - No active profile set, falling back to default profiles: default
+11:52:40.461 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+11:52:41.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+11:52:41.438 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:52:41.440 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+11:52:41.711 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:52:41.897 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+11:52:41.918 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:52:43.240 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:52:43.596 [main] INFO  com.alipay.demo.trade.config.Configs - 配置文件名: zfbinfo.properties
+11:52:43.597 [main] INFO  com.alipay.demo.trade.config.Configs - Configs{支付宝openapi网关: https://openapi.alipaydev.com/gateway.do
+, 支付宝mcloudapi网关域名: http://mcloudmonitor.com/gateway.do
+, pid: 2088102180239660
+, appid: 2016101900721064
+, 商户RSA私钥: MIIEvQ******Qm1/Y=
+, 商户RSA公钥: MIIBIj******IDAQAB
+, 支付宝RSA公钥: MIIBIj******IDAQAB
+, 签名类型: RSA2
+, 查询重试次数: 5
+, 查询间隔(毫秒): 5000
+, 撤销尝试次数: 3
+, 撤销重试间隔(毫秒): 2000
+, 交易保障调度延迟(秒): 5
+, 交易保障调度间隔(秒): 900
+}
+11:52:43.960 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:52:44.173 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+11:52:44.208 [main] INFO  com.neuedu.BusinessApplication - Started BusinessApplication in 5.986 seconds (JVM running for 8.674)
+11:52:50.533 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:52:50.617 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.countUsername - ==>  Preparing: select count(*) from neuedu_user where username=? 
+11:52:50.652 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.countUsername - ==> Parameters: admin2(String)
+11:52:50.689 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.countUsername - <==      Total: 1
+11:52:50.695 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.findUserByUsernameAndpassword - ==>  Preparing: select id, username, password, email, phone, question, answer, role, create_time, update_time, ip from neuedu_user where username=? and password=? 
+11:52:50.696 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.findUserByUsernameAndpassword - ==> Parameters: admin2(String), ecbbcb2ca53760520921aa2962038ce3(String)
+11:52:50.699 [http-nio-8888-exec-1] DEBUG com.neuedu.dao.UserMapper.findUserByUsernameAndpassword - <==      Total: 1

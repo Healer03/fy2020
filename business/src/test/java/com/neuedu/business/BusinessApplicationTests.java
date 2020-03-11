@@ -1,4 +1,4 @@
-package com.neuedu;
+package com.neuedu.business;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
